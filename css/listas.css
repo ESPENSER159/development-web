@@ -53,7 +53,7 @@ ol{
 ul.conimagen{
 	font-size: 35px;
 	text-align: center;
-	list-style-image: url("img/poke.png");
+	list-style-image: url("../img/poke.png");
 	list-style-position: inside;
 
 }
