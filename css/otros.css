@@ -1,0 +1,465 @@
+
+body{
+	background-image: url("../img/logo_witcher.png"), url("../img/background9.jpg");
+	background-position: right top, left top;
+
+	/* tambia el tamaño de la imagen */
+	background-size: 120px 120px, 2000px 2000px;
+	background-repeat: no-repeat;
+}
+
+.title{
+	text-align: center;
+	margin: 20px;
+	color: dodgerblue;
+	text-shadow: 5px 5px 30px #000;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	/* titulo referencia de la animacion */
+	animation-name: title;
+	/* duracion de la animacion */
+	animation-duration: 4s;
+	/* veces de repeticion */
+	animation-iteration-count: infinite;
+}
+/* aciones de la animacion */
+@keyframes title{
+	0% {color: dodgerblue;}
+	20% {color: red;}
+	50% {color: tomato;}
+	80% {color: orange;}
+	100% {color: dodgerblue;}
+}
+
+
+
+div.overflow{
+	margin: 0 auto 50px auto;
+	width: 85%;
+	height: 335px;
+	background: url("../img/logo_witcher.png"),url("../img/logo_witcher.png"),
+	url("../img/logo_witcher.png"),url("../img/logo_witcher.png"), #ffffff4a;
+
+	background-position: left top, right top, left bottom, right bottom;
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	border-radius: 5px;
+}
+p.overflow{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	color: tomato;
+	font-weight: bold;
+}
+div.titles{
+	text-align: center;
+	width: 65%;
+	margin: auto;
+}
+p.sin_overflow{
+	margin: auto;
+	text-align: center;
+	width: 150px;
+	float: left;
+	font-size: 20px;
+	color: #0fd466;
+	font-weight: bold;
+}
+p.con_overflow{
+	margin: auto;
+	text-align: center;
+	width: 150px;
+	float: right;
+	font-size: 20px;
+	color: #0fd466;
+	font-weight: bold;
+}
+div.sin_overflow{
+	clear: both;
+	margin: 10px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	width: 43%;
+	height: 200px;
+	background-color: lightblue;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+}
+div.con_overflow{
+	margin: 10px 20px 10px 20px;
+	float: right;
+	width: 43%;
+	height: 200px;
+	padding: 10px;
+	/* crea una barra de desplazamiento si el texto sobresale del div */
+	overflow-y: scroll;
+	background-color: orange;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+}
+/* ::seleccion hace que al seleccionar un texto se muestre del color que se determine; */
+div::selection{
+	background-color: #8bc34a;
+}
+p::selection{
+	background-color: #8bc34a;
+}
+
+
+
+p.wrap{
+	text-align: center; 
+	color: tomato;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+}
+p.sin_wrap{
+	margin: 5px auto 5px auto;
+	text-align: center;
+	width: 150px;
+	float: left;
+	font-size: 20px;
+	color: #0fd466;
+	font-weight: bold;
+}
+p.con_wrap{
+	margin: 5px auto 5px auto;
+	text-align: center;
+	width: 150px;
+	float: right;
+	font-size: 20px;
+	color: #0fd466;
+	font-weight: bold;
+}
+div.wrap{
+	margin: 20px auto 50px auto;
+	width: 60%;
+	height: 200px;
+	background-color: #ffffff4a;
+	border-radius: 5px;
+}
+div.sin_wrap{
+	clear: both;
+	margin: 10px 20px 10px 120px;
+	padding: 10px;
+	float: left;
+	width: 20%;
+	height: 100px;
+	background-color: orange;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-size: 23px;
+	/* si es una palabra grande se puede salir del div */
+	word-wrap: normal;
+}
+div.con_wrap{
+	margin: 10px 120px 10px 20px;
+	float: right;
+	width: 20%;
+	height: 120px;
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-size: 23px;
+	/* si es una palabra grande la adapta al div */
+	word-wrap: break-word;
+}
+
+
+
+
+.tiempo{
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+p.degrade{
+	text-align: center; 
+	color: tomato;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+}
+div.prin_degrade{
+	margin: 20px auto 50px auto;
+	width: 85%;
+	height: 600px;
+	background-color: #ffffff4a;
+	border-radius: 5px;
+}
+div.degradado_1{
+	clear: both;
+	margin: 25px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(left, dodgerblue, white);
+	/* animacion */
+	animation-name: degrai_one;
+}
+@keyframes degrai_one{
+	from {background: -webkit-linear-gradient(left, dodgerblue, white)}
+	to {background: -webkit-linear-gradient(left, white, dodgerblue)}
+}
+
+div.degradado_2{
+	margin: 25px 20px 10px 20px;
+	float: left;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(right, chartreuse, lightblue);
+	/* animacion */
+	animation-name: degrai_two;
+}
+@keyframes degrai_two{
+	from {background: -webkit-linear-gradient(right, chartreuse, lightblue)}
+	to {background: -webkit-linear-gradient(right, lightblue, chartreuse)}
+}
+
+div.degradado_3{
+	float: left;
+	margin: 25px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(top, skyblue, red);
+	/* animacion */
+	animation-name: degrai_three;
+}
+@keyframes degrai_three{
+	from {background: -webkit-linear-gradient(top, skyblue, red)}
+	to {background: -webkit-linear-gradient(top, red, skyblue)}
+}
+
+div.degradado_4{
+	margin: 25px 20px 10px 20px;
+	float: left;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(bottom, orange, tomato);
+	/* animacion */
+	animation-name: degrai_four;
+}
+@keyframes degrai_four{
+	from {background: -webkit-linear-gradient(bottom, orange, tomato)}
+	to {background: -webkit-linear-gradient(bottom, tomato, orange)}
+}
+
+div.degradado_5{
+	margin: 25px 20px 10px 20px;
+	float: left;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(120deg, aqua, chartreuse, white);
+	/* animacion */
+	animation-name: degrai_five;
+}
+@keyframes degrai_five{
+	0% {background: -webkit-linear-gradient(120deg, aqua, chartreuse, white)}
+	40% {background: -webkit-linear-gradient(120deg, white, aqua, chartreuse)}
+	80% {background: -webkit-linear-gradient(120deg, chartreuse, white, aqua)}
+	100% {background: -webkit-linear-gradient(120deg, aqua, chartreuse, white)}
+}
+
+div.degradado_6{
+	margin: 25px 20px 10px 20px;
+	float: left;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(60deg, tomato, aqua, white);
+	/* animacion */
+	animation-name: degrai_six;
+}
+@keyframes degrai_six{
+	0% {background: -webkit-linear-gradient(60deg, tomato, aqua, white)}
+	40% {background: -webkit-linear-gradient(60deg, white, tomato, aqua)}
+	80% {background: -webkit-linear-gradient(60deg, aqua, white, tomato)}
+	100% {background: -webkit-linear-gradient(60deg, tomato, aqua, white)}
+}
+
+div.degradado_7{
+	margin: 25px 20px 50px 20px;
+	float: left;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(120deg, aqua, tomato, white);
+	animation-name: degrai_seven;
+}
+@keyframes degrai_seven{
+	0% {background: -webkit-linear-gradient(120deg, aqua, tomato, white)}
+	40% {background: -webkit-linear-gradient(120deg, white, aqua, tomato)}
+	80% {background: -webkit-linear-gradient(120deg, tomato, white, aqua)}
+	100% {background: -webkit-linear-gradient(120deg, aqua, tomato, white)}
+}
+
+div.degradado_8{
+	margin: 25px 20px 10px 20px;
+	float: left;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado */
+	background: -webkit-linear-gradient(60deg, tomato, blue, white);
+	animation-name: degrai_eight;
+}
+@keyframes degrai_eight{
+	0% {background: -webkit-linear-gradient(60deg, tomato, blue, white)}
+	40% {background: -webkit-linear-gradient(60deg, white,tomato, blue)}
+	80% {background: -webkit-linear-gradient(60deg, blue, white, tomato)}
+	100% {background: -webkit-linear-gradient(60deg, tomato, blue, white)}
+}
+
+
+
+p.degrade_radial{
+	clear: both;
+	text-align: center; 
+	color: tomato;
+	margin: 20px auto 10px auto;
+	font-size: 25px;
+	font-weight: bold;
+}
+div.degradado_radial_1{
+	margin: 25px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado radial */
+	background: -webkit-radial-gradient(tomato, dodgerblue, white);
+	/* animacion */
+	animation-name: degrai_radial_one;
+}
+@keyframes degrai_radial_one{
+	0% {background: -webkit-radial-gradient(tomato, dodgerblue, white)}
+	40% {background: -webkit-radial-gradient(white, tomato, dodgerblue)}
+	80% {background: -webkit-radial-gradient(dodgerblue, white, tomato)}
+	100% {background: -webkit-radial-gradient(tomato, dodgerblue, white)}
+}
+
+div.degradado_radial_2{
+	margin: 25px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado radial */
+	background: -webkit-radial-gradient(top left, black 15%, chartreuse 20%, aqua 60%);
+	/* animacion */
+	animation-name: degrai_radial_two;
+	animation-direction: alternate;
+}
+@keyframes degrai_radial_two{
+	0% {background: -webkit-radial-gradient(top left, black 15%, chartreuse 20%, aqua 60%)}
+	40% {background: -webkit-radial-gradient(bottom right, black 15%, chartreuse 20%, aqua 60%)}
+	80% {background: -webkit-radial-gradient(top right, black 15%, chartreuse 20%, aqua 60%)}
+	100% {background: -webkit-radial-gradient(bottom left, black 15%, chartreuse 20%, aqua 60%)}
+}
+
+div.degradado_radial_3{
+	margin: 25px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado radial */
+	background: -webkit-radial-gradient(bottom, red, black, lightblue);
+	/* animacion */
+	animation-name: degrai_radial_three;
+	animation-direction: alternate;
+}
+@keyframes degrai_radial_three{
+	0% {background: -webkit-radial-gradient(bottom, red, black, lightblue)}
+	40% {background: -webkit-radial-gradient(top, red, black, lightblue)}
+	80% {background: -webkit-radial-gradient(left, red, black, lightblue)}
+	100% {background: -webkit-radial-gradient(right, red, black, lightblue)}
+}
+
+div.degradado_radial_4{
+	margin: 25px 20px 10px 20px;
+	padding: 10px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px 5px #000;
+	font-family: "Courier New", Courier, monospace;
+	/* Crea un degradado radial */
+	background: -webkit-radial-gradient(circle, tomato 15%, chartreuse 70%, white 30%);
+	/* animacion */
+	animation-name: degrai_radial_four;
+	animation-direction: alternate;
+}
+@keyframes degrai_radial_four{
+	0% {background: -webkit-radial-gradient(circle, tomato 50%, chartreuse 70%, white 30%)}
+	40% {background: -webkit-radial-gradient(circle, tomato 15%, chartreuse 30%, white 30%)}
+	80% {background: -webkit-radial-gradient(circle, tomato 15%, chartreuse 70%, white 50%)}
+	100% {background: -webkit-radial-gradient(circle, tomato 15%, chartreuse 70%, white 80%)}
+}
+
+div.tamaños{
+	width: 220px;
+	height: 100px;
+}
+
+
+
+input{
+	/* restablece el posicionamiento normal */
+	clear: both;
+	display: block;
+	margin: 50px auto 50px auto;
+	padding: 10px 30px 10px 30px;
+	border-radius: 10px;
+	background-color: #3e5984;
+	text-shadow: 5px 4px 40px #000;
+	box-shadow: 4px 4px 5px 2px #888888;
+	border: 2px double #0c996d;
+	cursor: pointer;
+	transition: width 1s, height 1s;
+	/* animacion */
+	animation-name: buttom;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+input:hover{
+	background-color: #92aad0;
+	color: white;
+	transform: translate(3px, 3px);
+}
+@keyframes buttom{
+	0% {background-color: #3e5984}
+	20% {background-color: #3e8480}
+	50% {background-color: #40843e}
+	70% {background-color: #7d843e}
+	100% {background-color: #843e3e}
+}

@@ -1,0 +1,115 @@
+
+body{
+	background-image: url("../img/background6.jpg");
+}
+
+img.guitar{
+	margin-top: 15px;
+	margin-left: 30%;
+	height: 70px;
+	float: left;
+}
+p.title{
+	color: #c14e0d;
+	text-shadow: 5px 5px 40px #979797;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 50px;
+	display: inline;
+}
+img.guitar2{
+	margin-top: 15px;
+	height: 70px;
+}
+
+
+
+p.audio{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #b75016;
+	font-weight: bold;
+}
+
+
+
+div.contenedor{
+	display: inline-flex;
+	text-align: center; 
+	width: 100%;
+}
+div.espacio0{
+	width: 50%;
+}
+p.Monster{
+	color: #c42f36;
+	font-size: 19px;
+	font-weight: bold;
+}
+img.Monster{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 240px;
+	width: 400px;
+}
+
+
+
+div.espacio1{
+	width: 50%;
+}
+p.vance{
+	color: #c42f36;
+	font-size: 19px;
+	font-weight: bold;
+}
+img.vance{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 240px;
+	width: 400px;
+}
+
+
+audio{
+	width: 400px;
+}
+
+
+div.contenedor2{
+	margin-top: 70px;
+	clear: both;
+	text-align: center;
+}
+p.oasis{
+	color: #c42f36;
+	font-size: 19px;
+	font-weight: bold;
+}
+p.video{
+	color: #b75016;
+	font-size: 30px;
+	font-weight: bold;
+}
+video.video{
+	width: 600px;
+	height: 450px;
+}
+
+
+
+input{
+	display: block;
+	padding: 10px 30px 10px 30px;
+	margin: 50px auto 50px auto;
+	border: 2px double #d88b7b;
+	border-radius: 10px;
+	background-color: #b75016;
+	cursor: pointer;
+}
+input:hover{
+	background-color: #e27d44;
+}

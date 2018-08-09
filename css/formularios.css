@@ -1,0 +1,126 @@
+
+body{
+	background-image: url("../img/background8.jpg");
+}
+
+
+p.title{
+	text-align: center;
+	font-style: italic;
+	margin: 30px;
+	color: #c9c7b9;
+	text-shadow: 5px 5px 10px #007c68;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+p.encabezados{
+	font-size: 22px;
+	color: #007c68;
+	margin-top: 50px;
+	font-weight: bold; 
+}
+
+.raro{
+	padding-top: 60px;
+	font-size: 22px;
+	color: #007c68;
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+input.entrada{
+	margin-top: 20px;
+	border: 2px solid #e2963f;
+	padding: 5px 15px 5px 0px;
+	border-radius: 5px;
+	color: gray;
+	cursor: pointer;
+}
+input:hover.entrada{
+	background-color: #7ed3c5;
+	color: gray;
+}
+
+label.usuario{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+input.usuario{
+	padding: 3px 0px 3px 0px;
+	border-radius: 5px;
+	border-color: #7ed3c5;
+	color: #393a3a;
+}
+input:hover.usuario{
+	background-color: #5dbaba;
+}
+
+input.BotonUsuario{
+	border-radius: 4px;
+	border: 2px solid #007c68;
+	padding: 5px 10px 5px 10px;
+	background-color: #7bbec6;
+	cursor: pointer;
+}
+input:hover.BotonUsuario{
+	background-color: #00cccc;
+	color: #747c7c;
+}
+
+
+input.radio{
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+input.check{
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+
+div.principal{
+	width: 100%;
+	display: inline-flex;
+}
+
+div.cuadros{
+	text-align: center;
+	background-color: #d8d6c0;
+	width: 300px;
+	height: 280px;
+	border-radius: 20px;
+	border-color: #cc8800;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.div_aparte{
+	text-align: center;
+	background-color: #d8d6c0;
+	width: 300px;
+	height: 280px;
+	border-radius: 20px;
+	border-color: #cc8800;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input.boton{
+	display: block;
+	margin: 50px auto 50px auto;
+	padding: 10px 30px 10px 30px;
+	border: 3px double #e2963f;
+	border-radius: 10px;
+	background-color: #d8d6c0;
+	text-shadow: 5px 4px 10px #000;
+	cursor: pointer;
+}
+input:hover.boton{
+	background-color: #e29c4a;
+	color: #42402b;
+}

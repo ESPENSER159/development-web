@@ -1,0 +1,56 @@
+
+body{
+	background-image: url("../img/background2.png");
+}
+
+p{
+	text-align: center;
+	margin: 30px;
+	color: #e28624;
+	text-shadow: 5px 5px 10px #007c68;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
+}
+
+div{
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%
+}
+
+.primero{
+	width: 350px;
+	height: 300px;
+}
+
+.segundo{
+	width: 300px;
+	height: 200px;
+}
+
+.tercero{
+	width: 300px;
+	height: 300px;
+}
+
+.cuarto{
+	width: 290px;
+	height: 200px;
+}
+
+
+input{
+	display: block;
+	margin: 60px auto 40px auto;
+	padding: 10px 30px 10px 30px;
+	border: 2px double #e2bf24;
+	border-radius: 10px;
+	text-shadow: 5px 4px 10px #000;
+	background-color: #e28624;
+	cursor: pointer;
+}
+input:hover{
+	background-color: #ff9c32;
+	color: #e5ddd5;
+}

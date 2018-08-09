@@ -1,0 +1,55 @@
+
+body{
+	background-image: url(../img/background6.jpg);
+}
+
+p{
+	text-align: center;
+	text-shadow: 5px 4px 20px #e0b60f;
+	margin: 50px;
+	color: #e0b60f;
+	font-size: 40px;
+}
+
+div{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+img{
+	height: 90px;
+	width: 90px;
+}
+
+a.center{
+	position: relative;
+	top: -40px;
+	font-size: 30px;
+	margin-left: 15px;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:link{
+	text-decoration: underline;
+}
+
+input{
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 30px 10px 30px;
+	border: 5px double #d1cac6;
+	border-radius: 10px;
+	background-color: #e2bf31;
+	text-shadow: 5px 4px 10px #000;
+	cursor: pointer;
+}
+input:hover{
+	background-color: #edbf04;
+	color: blue;
+}

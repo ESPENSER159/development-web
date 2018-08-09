@@ -1,0 +1,63 @@
+
+body{
+	/* Fondos de la Pagina */
+	background-image: url(../img/background4.jpg);
+}
+
+img.titulo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 170px;
+	width: 140px;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	border: 3px ridge #a00e33;
+	border-radius: 8px;
+}
+
+tr{
+	width: 100%;
+	background-color: #282828;
+	text-align: center;
+}
+
+td{
+	border: 1px ridge #a00e33;
+	width: 200px;
+	height: 150px;
+	border-radius: 8px;
+}
+
+
+/* Estilos de los Parrafos */
+p{
+	/* Espacio entre letra y letras */
+	letter-spacing: 4px;
+	/* Tipo de letra */
+	font-family: monospace;
+	font-style: oblique;
+	/* Grosor del texto */
+	font-weight: bold;
+	color: #731389;
+	/* Tamaño de los parrafos */
+	font-size: 25px;
+}
+
+input{
+	padding: 2px 20px 2px 20px;
+	border-radius: 5px;
+	background-color: #85e5e0;
+	/* Cambia el tipo de cursor */
+	cursor: pointer;
+}
+/* Accion cuando el cursor esta sobre el la caja */
+input:hover{
+	background-color: #21b5a6;
+}
